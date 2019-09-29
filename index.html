@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Welcome to my Static site</title>
+	<style type="text/css">
+		body{
+			background: lightgrey;
+		}
+
+		@keyframes animate {
+			from{
+				transform: scale(0);
+			}
+			to{
+				transform: scale(1);
+			}
+		}
+
+		.container {
+			 display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: center;
+		    position: relative;
+		    top: 3em;
+		    font-size: 2em;
+		    background: teal;
+		    color: #5a4747;
+		    animation: animate 2s;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2> Welcome to E-91</h2>
+		<h3> Delveri M Chick </h3>
+	</div>
+</body>
+</html>
